@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TappedPage.Company
+namespace TappedPage.Cars
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Toyota : TabbedPage
+    public partial class ToyotaVerso : ContentPage
     {
-        public Toyota()
+        public ToyotaVerso()
         {
             InitializeComponent();
         }

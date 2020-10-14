@@ -6,7 +6,7 @@
 
     <TabbedPage.Children>
         <local:Bmw />
-        <local:Audi />
+        <local:Tesla />
         <local:Toyota />
         <local:Mercedes />
     </TabbedPage.Children>

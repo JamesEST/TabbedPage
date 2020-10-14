@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TappedPage.Company
+namespace TappedPage.Cars
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Audi : ContentPage
+    public partial class MercedesW222 : ContentPage
     {
-        public Audi()
+        public MercedesW222()
         {
             InitializeComponent();
         }

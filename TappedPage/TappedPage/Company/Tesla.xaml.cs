@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace TappedPage.Company
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Toyota : TabbedPage
+    public partial class Tesla : TabbedPage
     {
-        public Toyota()
+        public Tesla()
         {
             InitializeComponent();
         }

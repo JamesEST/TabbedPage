@@ -7,7 +7,7 @@
 
     <TabbedPage.Children>
         <local:MercedesW205 />
-        <local:MercedesW205 />
+        <local:MercedesE350 />
         <local:MercedesW205 />
     </TabbedPage.Children>
 
