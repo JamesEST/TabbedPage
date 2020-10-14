@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            xmlns:local="clr-namespace:TappedPage.Cars"
+            x:Class="TappedPage.Company.Bmw"
+            Title="Bmw">
+    
+    <TabbedPage.Children>
+        <local:BmwF32 />
+        <local:BmwM5F10 />
+        <local:BmwX5E70 />
+    </TabbedPage.Children>
+</TabbedPage>
