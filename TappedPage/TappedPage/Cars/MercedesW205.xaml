@@ -2,12 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TappedPage.Cars.MercedesW205"
-             Title="Mercedes W205">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             Title="Mercedes S63">
+    <StackLayout>
+        <Image x:Name="_ImageLogo" HeightRequest="160" Source="S63Amg.jpg"/>
+        <Button x:Name="_btn" Text="Запустить лого компании" Clicked="_btn_OnClicked"></Button>
+        <ListView x:Name="phonesList"
+                  HasUnevenRows="True"
+                  ItemsSource="{Binding Phones}"
+                  ItemTapped="OnItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout>
+                                <Label Text="{Binding Company}" FontSize="20" />
+                                <Label Text="{Binding Title}" />
+                               
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

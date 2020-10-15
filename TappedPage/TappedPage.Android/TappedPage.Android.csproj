@@ -68,6 +68,14 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bmwlogo.gif" />
+    <AndroidResource Include="Resources\drawable\f32.jpg" />
+    <AndroidResource Include="Resources\drawable\file.gif" />
+    <AndroidResource Include="Resources\drawable\giphy.gif" />
+    <AndroidResource Include="Resources\drawable\S63Amg.jpg" />
+    <AndroidResource Include="Resources\drawable\TeslaLogo.gif" />
+    <AndroidResource Include="Resources\drawable\ToyotaLogo.gif" />
+    <AndroidResource Include="Resources\drawable\ToyotaRav4.jpg" />
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
     <AndroidResource Include="Resources\layout\Toolbar.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
