@@ -69,13 +69,27 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\bmwlogo.gif" />
+    <AndroidResource Include="Resources\drawable\bmwm5f10.jpg" />
+    <AndroidResource Include="Resources\drawable\bmwx5.jpg" />
+    <AndroidResource Include="Resources\drawable\CamryTo.jpg" />
+    <AndroidResource Include="Resources\drawable\CarInfoImage1.png" />
+    <AndroidResource Include="Resources\drawable\CarInfoImage2.png" />
+    <AndroidResource Include="Resources\drawable\CarInfoImage3.png" />
+    <AndroidResource Include="Resources\drawable\CarInfoImage4.png" />
+    <AndroidResource Include="Resources\drawable\CarInfoImage5.png" />
+    <AndroidResource Include="Resources\drawable\CarInfoImage6.png" />
     <AndroidResource Include="Resources\drawable\f32.jpg" />
     <AndroidResource Include="Resources\drawable\file.gif" />
-    <AndroidResource Include="Resources\drawable\giphy.gif" />
-    <AndroidResource Include="Resources\drawable\S63Amg.jpg" />
+    <AndroidResource Include="Resources\drawable\ModelSs.jpg" />
+    <AndroidResource Include="Resources\drawable\ModelXx.jpg" />
+    <AndroidResource Include="Resources\drawable\ModelYy.jpg" />
     <AndroidResource Include="Resources\drawable\TeslaLogo.gif" />
     <AndroidResource Include="Resources\drawable\ToyotaLogo.gif" />
     <AndroidResource Include="Resources\drawable\ToyotaRav4.jpg" />
+    <AndroidResource Include="Resources\drawable\VersoTo.jpg" />
+    <AndroidResource Include="Resources\drawable\W112.jpg" />
+    <AndroidResource Include="Resources\drawable\w205.jpg" />
+    <AndroidResource Include="Resources\drawable\w222.jpg" />
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
     <AndroidResource Include="Resources\layout\Toolbar.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
@@ -92,9 +106,6 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ModelS.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TappedPage\TappedPage.csproj">

@@ -3,7 +3,7 @@
     public class Car
     {
         public string Title { get; set; }
-        public string Company { get; set; }
-        public int Price { get; set; }
+        public string CarInfo { get; set; }
+        public object ImagePath { get; set; }
     }
 }

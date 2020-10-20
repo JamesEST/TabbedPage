@@ -14,15 +14,13 @@
                   ItemTapped="OnItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
-                        <ViewCell.View>
-                            <StackLayout>
-                                <Label Text="{Binding Company}" FontSize="20" />
-                                <Label Text="{Binding Title}" />
-                               
-                            </StackLayout>
-                        </ViewCell.View>
-                    </ViewCell>
+                    <ImageCell
+                        ImageSource="{Binding ImagePath}"
+                        Text="{Binding Title}"
+                        Detail="{Binding CarInfo}"
+                        TextColor="Black"
+                        DetailColor="gray"
+                        />
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

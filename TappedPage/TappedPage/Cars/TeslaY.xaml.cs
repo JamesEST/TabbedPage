@@ -18,9 +18,12 @@ namespace TappedPage.Cars
             InitializeComponent();
             Phones = new List<Car>
             {
-                new Car {Title="" , Company="Тип кузова: купе"},
-                new Car {Title="", Company="Мощность: 431 л.с" },
-                new Car {Title="", Company="Рабочий объём: 2979 см3"  }
+                new Car {Title="Тип кузова" , CarInfo="Внедорожник", ImagePath = "CarInfoImage6.png"},
+                new Car {Title="Мощность", CarInfo="450 л.с. / 336 кВт", ImagePath = "CarInfoImage3.png"},
+                new Car {Title="Кол-во мест" , CarInfo="7 мест", ImagePath = "CarInfoImage4.png"},
+                new Car {Title="Кол-во дверей", CarInfo="5 дверей", ImagePath = "CarInfoImage2.png"},
+                new Car {Title="Запас хода" , CarInfo="480 км", ImagePath="CarInfoImage5.png"},
+                new Car {Title="Расход Электричество кВт⋅ч/100 км", CarInfo="16 кВт⋅ч/100 км", ImagePath="CarInfoImage1.png"}
             };
             this.BindingContext = this;
         }
@@ -28,7 +31,7 @@ namespace TappedPage.Cars
         {
             Car selectedPhone = e.Item as Car;
             if (selectedPhone != null)
-                await DisplayAlert("Выбранная модель", $"{selectedPhone.Company}  {selectedPhone.Title}", "OK");
+                await DisplayAlert("Выбранная модель", $"{selectedPhone.CarInfo}  {selectedPhone.Title}", "OK");
         }
     }
 }
