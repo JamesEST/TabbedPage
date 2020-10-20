@@ -3,7 +3,9 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             xmlns:local="clr-namespace:TappedPage.Cars"
             x:Class="TappedPage.Company.Toyota"
-             Title="Toyota">
+             Title="Toyota"
+            SelectedTabColor="#FFC596"
+            BarBackgroundColor="Coral">
     <TabbedPage.Children>
         <local:ToyotaRav4/>
         <local:ToyotaCamry />

@@ -3,7 +3,9 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             xmlns:local="clr-namespace:TappedPage.Cars"
             x:Class="TappedPage.Company.Tesla"
-            Title="Tesla">
+            Title="Tesla"
+            SelectedTabColor="#FFC596"
+            BarBackgroundColor="Coral">
     <TabbedPage.Children>
         <local:TeslaS />
         <local:TeslaX />
